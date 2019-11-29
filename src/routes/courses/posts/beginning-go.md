@@ -1,6 +1,7 @@
 ---
 title: Beginning Go
 date: 2019-11-16T12:51:00.000Z
+price: 99
 ---
 
 A sample page with the most common elements of an article, including headings, paragraphs, lists, and images.

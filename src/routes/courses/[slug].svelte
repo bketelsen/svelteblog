@@ -50,12 +50,12 @@
 </header>
 <div class="container">
 <button class="snipcart-add-item"
-  data-item-id="starry-night"
-  data-item-price="79.99"
-  data-item-url="/paintings/starry-night"
-  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
-  data-item-image="/assets/images/starry-night.jpg"
-  data-item-name="The Starry Night">
+  data-item-id="{post.slug}"
+  data-item-price="{post.price}"
+  data-item-url="/courses/{post.slug}"
+  data-item-description="{post.excerpt}"
+  data-item-image="/images/courses/{post.slug}.png}"
+  data-item-name="{post.title}">
   Add to cart
 </button>
 
