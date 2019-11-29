@@ -55,6 +55,5 @@
   <a rel=prefetch class='{segment === "courses" ? "selected" : ""}' href='courses'>courses</a>
   <a rel=prefetch class='{segment === "projects" ? "selected" : ""}' href='projects'>projects</a>
   <a rel=prefetch class='{segment === "talks" ? "selected" : ""}' href='talks'>talks</a>
-  <button class="snipcart-checkout">Checkout</button>
 
 </nav>
